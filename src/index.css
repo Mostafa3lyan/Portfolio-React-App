@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  background-color: #1ABC9C !important; 
+}
+
+.navbar {
+  background-color: #2C3E50;
+}
+.navbar-shrink {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  transition: padding 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar {
+  transition: padding 0.3s ease, background-color 0.3s ease;
+}
+
+.active-custom {
+  color: white !important;
+  background-color: #1abc9c !important;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* .active {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+} */
+
+.footerContact{
+  background-color: #2C3E50;
+}
+.copyWrite{
+  background-color: #1A252F;
+}
+
+.social-circle{
+  display: block;
+  width: 30PX;
+  height: 30PX;
+  border-radius: 50%;
+  border: #fff 1px solid;
+  text-align: center;
+  line-height: 30px;
+}
+
+.star {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+.star::before,
+.star::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 85px;
+  height: 5px;
+  background-color: #fff;
+}
+
+.star::before {
+  left: -100px; /* spacing from the star */
+}
+
+.star::after {
+  right: -100px;
+}
+
+.bg-grey {
+color: #2C3E50 !important;
+}
+.portfolioComponent .star::before,
+.portfolioComponent .star::after {
+  background-color: #2C3E50;
+}
+
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.btn{
+background-color: #1abc9c !important;
+  color: #fff !important;
+
+}
+
+
+.layer {
+  background-color: #19cda9d2;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.inner:hover .layer {
+  opacity: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.bg-sky {
+  background-color: #89b6f5a9;
+}
